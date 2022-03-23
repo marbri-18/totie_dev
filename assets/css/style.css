@@ -118,7 +118,7 @@
   .slide-viewer {
     position: relative; /* needed for IE7 */
     overflow: hidden;
-    height: 430px;
+    height: 645px;
   }
   
   .slide-group {
