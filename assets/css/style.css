@@ -1,0 +1,166 @@
+/* FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Dela+Gothic+One&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+.call-out {
+    background-color: yellow;
+    color: #cd7f32;
+}
+
+.map {
+    height: 150px;
+    background-color: blue;
+}
+
+.opening-hours {
+    height: 150px;
+    background-color: green;
+}
+.section-heading {
+    padding-bottom: 30px;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #1d9dad;
+    padding: 0;
+    
+}
+
+.navbar-brand {
+    font-family: Bangers;
+    margin-left: 5px;
+    font-size: 2.2rem;
+    color: #7d4314;
+    padding: 5px 10px 5px 0;
+}
+
+
+/* Jumbotron*/
+.hero-image-container {
+    width: 100%;
+}
+
+#hero-image {
+    width: 100%;
+    height: auto;
+}
+
+
+
+
+/* Call to action */
+
+.call-to-action {
+    padding: 25px 0;
+}
+
+.call-to-action button {
+    width: 100%;
+    margin: 4px 1px;
+}
+
+.book {
+    background-color: #7d4314;
+    text-align: center;
+    color: white;
+}
+
+.events {
+    background-color: #7d4314;
+    text-align: center;
+    color: white;
+}
+
+.products {
+    background-color: #E6A063;
+    text-align: center;
+    color: #333;
+} 
+
+.contact {
+    background-color: #E6A063;
+    text-align: center;
+    color: #333;
+}
+
+/* Features*/
+
+.about-us {
+    padding: 25px 0;
+}
+
+
+
+.feature-container {
+    padding: 5px;
+}
+
+.feature {
+    border: double 2px #7d4314;
+    padding: 5px;
+    text-align: center;
+    
+    
+}
+
+.feature-img {
+    border: solid 1px black;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Responsive Slider*/
+.slider {
+    max-width: 940px;
+    margin: 0px auto 30px auto;
+  }
+  
+  .slide-viewer {
+    position: relative; /* needed for IE7 */
+    overflow: hidden;
+    height: 430px;
+  }
+  
+  .slide-group {
+    width: 100%;
+    height: 100%;
+    position: relative;
+  }
+  
+  .slide {
+    width: 100%;
+    height: 100%;
+    display: none;
+    position: absolute;
+  }
+  
+  .slide:first-child {
+    display: block;
+  }
+  
+  /********** BUTTONS **********/
+  .slide-buttons {
+    text-align: center;
+  }
+  
+  .slide-btn {
+    border: none;
+    background: none;
+    color: #000;
+    font-size: 200%;
+    line-height: 0.5em;
+  }
+  
+  .slide-btn.active,
+  .slide-btn:hover {
+    color: #ed8e6c;
+    cursor: pointer;
+  }
+
+  .slider-image {
+      width: 100%;
+    
+  }
+
+
+
