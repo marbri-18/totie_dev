@@ -122,6 +122,7 @@
     position: relative; /* needed for IE7 */
     overflow: hidden;
     height: 582px;
+    width: 930px;
   }
   
   .slide-group {
