@@ -112,7 +112,8 @@
 
 /* Responsive Slider*/
 .slider {
-    max-width: 930px;
+    width: 930px;
+    height: 582px;
     
     margin: 0px auto 30px auto;
   }
@@ -120,7 +121,7 @@
   .slide-viewer {
     position: relative; /* needed for IE7 */
     overflow: hidden;
-    height: 430px;
+    height: 582px;
   }
   
   .slide-group {
